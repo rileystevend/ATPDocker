@@ -1,0 +1,412 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'oracledb' ]
+2 info using npm@2.9.1
+3 info using node@v0.12.3
+4 verbose install initial load of /Users/kirti/nodejs/Projects/TMO/package.json
+5 warn package.json taskMonkeyOracle@0.0.1 No description
+6 warn package.json taskMonkeyOracle@0.0.1 No repository field.
+7 warn package.json taskMonkeyOracle@0.0.1 No README data
+8 verbose installManyTop reading scoped package data from /Users/kirti/nodejs/Projects/TMO/node_modules/body-parser/package.json
+9 verbose installManyTop reading scoped package data from /Users/kirti/nodejs/Projects/TMO/node_modules/crypto/package.json
+10 verbose installManyTop reading scoped package data from /Users/kirti/nodejs/Projects/TMO/node_modules/express/package.json
+11 verbose installManyTop reading scoped package data from /Users/kirti/nodejs/Projects/TMO/node_modules/jwt-simple/package.json
+12 verbose installManyTop reading scoped package data from /Users/kirti/nodejs/Projects/TMO/node_modules/lodash/package.json
+13 verbose installManyTop reading scoped package data from /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/package.json
+14 warn package.json crypto@0.0.3 crypto is also the name of a node core module.
+15 verbose readDependencies loading dependencies from /Users/kirti/nodejs/Projects/TMO/package.json
+16 verbose install oracledb is installed as 0.6.0
+17 silly cache add args [ 'oracledb@^0.6.0', null ]
+18 verbose cache add spec oracledb@^0.6.0
+19 silly cache add parsed spec { raw: 'oracledb@^0.6.0',
+19 silly cache add   scope: null,
+19 silly cache add   name: 'oracledb',
+19 silly cache add   rawSpec: '^0.6.0',
+19 silly cache add   spec: '>=0.6.0 <0.7.0',
+19 silly cache add   type: 'range' }
+20 silly addNamed oracledb@>=0.6.0 <0.7.0
+21 verbose addNamed ">=0.6.0 <0.7.0" is a valid semver range for oracledb
+22 silly addNameRange { name: 'oracledb', range: '>=0.6.0 <0.7.0', hasData: false }
+23 silly mapToRegistry name oracledb
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/oracledb
+27 verbose addNameRange registry:https://registry.npmjs.org/oracledb not in flight; fetching
+28 verbose request uri https://registry.npmjs.org/oracledb
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 9:18:49 PM
+31 verbose request id 5c090b28fc45f0a0
+32 http request GET https://registry.npmjs.org/oracledb
+33 http 200 https://registry.npmjs.org/oracledb
+34 silly get cb [ 200,
+34 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+34 silly get     etag: '"6779CY9HWTP5WSZI9BLIF2937"',
+34 silly get     'content-type': 'application/json',
+34 silly get     'cache-control': 'max-age=60',
+34 silly get     'content-length': '12574',
+34 silly get     'accept-ranges': 'bytes',
+34 silly get     date: 'Sat, 27 Jun 2015 04:18:49 GMT',
+34 silly get     via: '1.1 varnish',
+34 silly get     age: '0',
+34 silly get     connection: 'keep-alive',
+34 silly get     'x-served-by': 'cache-sjc3129-SJC',
+34 silly get     'x-cache': 'MISS',
+34 silly get     'x-cache-hits': '0',
+34 silly get     'x-timer': 'S1435378729.665683,VS0,VE39',
+34 silly get     vary: 'Accept' } ]
+35 verbose get saving oracledb to /Users/kirti/.npm/registry.npmjs.org/oracledb/.cache.json
+36 silly addNameRange number 2 { name: 'oracledb', range: '>=0.6.0 <0.7.0', hasData: true }
+37 silly addNameRange versions [ 'oracledb', [ '0.2.4', '0.6.0' ] ]
+38 silly addNamed oracledb@0.6.0
+39 verbose addNamed "0.6.0" is a plain semver version for oracledb
+40 silly mapToRegistry name oracledb
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/oracledb
+44 verbose addRemoteTarball https://registry.npmjs.org/oracledb/-/oracledb-0.6.0.tgz not in flight; adding
+45 verbose addRemoteTarball [ 'https://registry.npmjs.org/oracledb/-/oracledb-0.6.0.tgz',
+45 verbose addRemoteTarball   'b74475841bd46b5b5b62161a3984bd01353e0262' ]
+46 info retry fetch attempt 1 at 9:18:49 PM
+47 info attempt registry request try #1 at 9:18:49 PM
+48 http fetch GET https://registry.npmjs.org/oracledb/-/oracledb-0.6.0.tgz
+49 http fetch 200 https://registry.npmjs.org/oracledb/-/oracledb-0.6.0.tgz
+50 silly fetchAndShaCheck shasum b74475841bd46b5b5b62161a3984bd01353e0262
+51 verbose addTmpTarball /var/folders/dm/0smwxdrd2bz6511w2mdx65c80000gn/T/npm-5165-436969e8/registry.npmjs.org/oracledb/-/oracledb-0.6.0.tgz not in flight; adding
+52 verbose addTmpTarball already have metadata; skipping unpack for oracledb@0.6.0
+53 silly cache afterAdd oracledb@0.6.0
+54 verbose afterAdd /Users/kirti/.npm/oracledb/0.6.0/package/package.json not in flight; writing
+55 verbose afterAdd /Users/kirti/.npm/oracledb/0.6.0/package/package.json written
+56 silly install resolved [ { name: 'oracledb',
+56 silly install resolved     version: '0.6.0',
+56 silly install resolved     description: 'Oracle Database driver by Oracle Corp.',
+56 silly install resolved     license: 'Apache-2.0',
+56 silly install resolved     homepage: 'http://www.oracle.com/technetwork/database/database-technologies/node_js/index.html',
+56 silly install resolved     keywords:
+56 silly install resolved      [ 'oracledb',
+56 silly install resolved        'dboracle',
+56 silly install resolved        'Node.js',
+56 silly install resolved        'SQL',
+56 silly install resolved        'PL/SQL',
+56 silly install resolved        'connection',
+56 silly install resolved        'connectivity',
+56 silly install resolved        'OCI',
+56 silly install resolved        'client',
+56 silly install resolved        'plugin',
+56 silly install resolved        'library',
+56 silly install resolved        'driver',
+56 silly install resolved        'extension',
+56 silly install resolved        'binding',
+56 silly install resolved        'interface',
+56 silly install resolved        'adapter',
+56 silly install resolved        'module',
+56 silly install resolved        'DB',
+56 silly install resolved        'official',
+56 silly install resolved        'Database',
+56 silly install resolved        'Oracle' ],
+56 silly install resolved     repository:
+56 silly install resolved      { type: 'git',
+56 silly install resolved        url: 'git://github.com/oracle/node-oracledb.git' },
+56 silly install resolved     dependencies: { nan: '^1.8.4' },
+56 silly install resolved     engines: { node: '>=0.10.28' },
+56 silly install resolved     maintainers: [ [Object], [Object] ],
+56 silly install resolved     bugs: { url: 'https://github.com/oracle/node-oracledb/issues' },
+56 silly install resolved     main: './index.js',
+56 silly install resolved     scripts: { install: 'node-gyp rebuild' },
+56 silly install resolved     gypfile: true,
+56 silly install resolved     _id: 'oracledb@0.6.0',
+56 silly install resolved     _shasum: 'b74475841bd46b5b5b62161a3984bd01353e0262',
+56 silly install resolved     _resolved: 'https://registry.npmjs.org/oracledb/-/oracledb-0.6.0.tgz',
+56 silly install resolved     _from: 'oracledb@>=0.6.0 <0.7.0',
+56 silly install resolved     _npmVersion: '2.7.5',
+56 silly install resolved     _nodeVersion: '0.12.2',
+56 silly install resolved     _npmUser: { name: 'cjbj', email: 'christopher.jones@oracle.com' },
+56 silly install resolved     dist:
+56 silly install resolved      { shasum: 'b74475841bd46b5b5b62161a3984bd01353e0262',
+56 silly install resolved        tarball: 'http://registry.npmjs.org/oracledb/-/oracledb-0.6.0.tgz' },
+56 silly install resolved     directories: {} } ]
+57 info install oracledb@0.6.0 into /Users/kirti/nodejs/Projects/TMO
+58 info installOne oracledb@0.6.0
+59 verbose installOne of oracledb to /Users/kirti/nodejs/Projects/TMO not in flight; installing
+60 verbose lock using /Users/kirti/.npm/_locks/oracledb-3dfc816f6afc13c6.lock for /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb
+61 silly install write writing oracledb 0.6.0 to /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb
+62 verbose unbuild node_modules/oracledb
+63 info preuninstall oracledb@0.6.0
+64 info uninstall oracledb@0.6.0
+65 verbose unbuild rmStuff oracledb@0.6.0 from /Users/kirti/nodejs/Projects/TMO/node_modules
+66 info postuninstall oracledb@0.6.0
+67 silly gentlyRm /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb is being purged from base /Users/kirti/nodejs/Projects/TMO
+68 verbose gentlyRm don't care about contents; nuking /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb
+69 silly vacuum-fs purging /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb
+70 silly vacuum-fs quitting because other entries in /Users/kirti/nodejs/Projects/TMO/node_modules
+71 verbose tar unpack /Users/kirti/.npm/oracledb/0.6.0/package.tgz
+72 verbose tar unpacking to /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb
+73 silly gentlyRm /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb is being purged
+74 verbose gentlyRm don't care about contents; nuking /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb
+75 silly gunzTarPerm modes [ '755', '644' ]
+76 silly gunzTarPerm extractEntry package.json
+77 silly gunzTarPerm extractEntry README.md
+78 silly gunzTarPerm extractEntry index.js
+79 silly gunzTarPerm extractEntry CHANGELOG.md
+80 silly gunzTarPerm extractEntry LICENSE.md
+81 silly gunzTarPerm extractEntry binding.gyp
+82 silly gunzTarPerm extractEntry lib/oracledb.js
+83 silly gunzTarPerm extractEntry src/dpi/include/dpi.h
+84 silly gunzTarPerm extractEntry src/dpi/include/dpiConn.h
+85 silly gunzTarPerm extractEntry src/dpi/include/dpiDateTimeArray.h
+86 silly gunzTarPerm extractEntry src/dpi/include/dpiEnv.h
+87 silly gunzTarPerm extractEntry src/dpi/include/dpiException.h
+88 silly gunzTarPerm extractEntry src/dpi/include/dpiPool.h
+89 silly gunzTarPerm extractEntry src/dpi/include/dpiStmt.h
+90 silly gunzTarPerm extractEntry src/dpi/src/dpiExceptionImpl.cpp
+91 silly gunzTarPerm extractEntry src/dpi/src/dpiConnImpl.cpp
+92 silly gunzTarPerm extractEntry src/dpi/src/dpiDateTimeArrayImpl.cpp
+93 silly gunzTarPerm extractEntry src/dpi/src/dpiDateTimeArrayImpl.h
+94 silly gunzTarPerm extractEntry src/dpi/src/dpiEnv.cpp
+95 silly gunzTarPerm extractEntry src/dpi/src/dpiEnvImpl.cpp
+96 silly gunzTarPerm extractEntry src/dpi/src/dpiEnvImpl.h
+97 silly gunzTarPerm extractEntry src/dpi/src/dpiException.cpp
+98 silly gunzTarPerm extractEntry src/dpi/src/dpiConnImpl.h
+99 silly gunzTarPerm extractEntry src/dpi/src/dpiExceptionImpl.h
+100 silly gunzTarPerm extractEntry src/dpi/src/dpiPoolImpl.cpp
+101 silly gunzTarPerm extractEntry src/dpi/src/dpiPoolImpl.h
+102 silly gunzTarPerm extractEntry src/dpi/src/dpiStmtImpl.cpp
+103 silly gunzTarPerm extractEntry src/dpi/src/dpiStmtImpl.h
+104 silly gunzTarPerm extractEntry src/dpi/src/dpiUtils.cpp
+105 silly gunzTarPerm extractEntry src/dpi/src/dpiUtils.h
+106 silly gunzTarPerm extractEntry src/njs/src/njsConnection.cpp
+107 silly gunzTarPerm extractEntry src/njs/src/njsConnection.h
+108 silly gunzTarPerm extractEntry src/njs/src/njsMessages.cpp
+109 silly gunzTarPerm extractEntry src/njs/src/njsMessages.h
+110 silly gunzTarPerm extractEntry src/njs/src/njsOracle.cpp
+111 silly gunzTarPerm extractEntry src/njs/src/njsOracle.h
+112 silly gunzTarPerm extractEntry src/njs/src/njsPool.cpp
+113 silly gunzTarPerm extractEntry src/njs/src/njsPool.h
+114 silly gunzTarPerm extractEntry src/njs/src/njsUtils.h
+115 verbose write writing to /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/package.json
+116 info preinstall oracledb@0.6.0
+117 verbose readDependencies loading dependencies from /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/package.json
+118 silly prepareForInstallMany adding nan@^1.8.4 from oracledb dependencies
+119 verbose readDependencies loading dependencies from /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/package.json
+120 silly cache add args [ 'nan@^1.8.4', null ]
+121 verbose cache add spec nan@^1.8.4
+122 silly cache add parsed spec { raw: 'nan@^1.8.4',
+122 silly cache add   scope: null,
+122 silly cache add   name: 'nan',
+122 silly cache add   rawSpec: '^1.8.4',
+122 silly cache add   spec: '>=1.8.4 <2.0.0',
+122 silly cache add   type: 'range' }
+123 silly addNamed nan@>=1.8.4 <2.0.0
+124 verbose addNamed ">=1.8.4 <2.0.0" is a valid semver range for nan
+125 silly addNameRange { name: 'nan', range: '>=1.8.4 <2.0.0', hasData: false }
+126 silly mapToRegistry name nan
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry uri https://registry.npmjs.org/nan
+130 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+131 verbose request uri https://registry.npmjs.org/nan
+132 verbose request no auth needed
+133 info attempt registry request try #1 at 9:18:49 PM
+134 verbose etag "8OKNOQTK5I3E2DYN4ME7PZ551"
+135 http request GET https://registry.npmjs.org/nan
+136 http 200 https://registry.npmjs.org/nan
+137 silly get cb [ 200,
+137 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+137 silly get     etag: '"CWMZR9BQ6YD6KL99MGG0CU5U5"',
+137 silly get     'content-type': 'application/json',
+137 silly get     'cache-control': 'max-age=60',
+137 silly get     'content-length': '109590',
+137 silly get     'accept-ranges': 'bytes',
+137 silly get     date: 'Sat, 27 Jun 2015 04:18:50 GMT',
+137 silly get     via: '1.1 varnish',
+137 silly get     age: '8',
+137 silly get     connection: 'keep-alive',
+137 silly get     'x-served-by': 'cache-sjc3128-SJC',
+137 silly get     'x-cache': 'HIT',
+137 silly get     'x-cache-hits': '1',
+137 silly get     'x-timer': 'S1435378730.073985,VS0,VE0',
+137 silly get     vary: 'Accept' } ]
+138 verbose get saving nan to /Users/kirti/.npm/registry.npmjs.org/nan/.cache.json
+139 silly addNameRange number 2 { name: 'nan', range: '>=1.8.4 <2.0.0', hasData: true }
+140 silly addNameRange versions [ 'nan',
+140 silly addNameRange   [ '0.3.0-wip',
+140 silly addNameRange     '0.3.0-wip2',
+140 silly addNameRange     '0.3.0',
+140 silly addNameRange     '0.3.1',
+140 silly addNameRange     '0.3.2',
+140 silly addNameRange     '0.4.0',
+140 silly addNameRange     '0.4.1',
+140 silly addNameRange     '0.4.2',
+140 silly addNameRange     '0.4.3',
+140 silly addNameRange     '0.4.4',
+140 silly addNameRange     '0.5.0',
+140 silly addNameRange     '0.5.1',
+140 silly addNameRange     '0.5.2',
+140 silly addNameRange     '0.6.0',
+140 silly addNameRange     '0.7.0',
+140 silly addNameRange     '0.7.1',
+140 silly addNameRange     '0.8.0',
+140 silly addNameRange     '1.0.0',
+140 silly addNameRange     '1.1.0',
+140 silly addNameRange     '1.1.1',
+140 silly addNameRange     '1.1.2',
+140 silly addNameRange     '1.2.0',
+140 silly addNameRange     '1.3.0',
+140 silly addNameRange     '1.4.0',
+140 silly addNameRange     '1.4.1',
+140 silly addNameRange     '1.5.0',
+140 silly addNameRange     '1.4.2',
+140 silly addNameRange     '1.4.3',
+140 silly addNameRange     '1.5.1',
+140 silly addNameRange     '1.5.2',
+140 silly addNameRange     '1.6.0',
+140 silly addNameRange     '1.5.3',
+140 silly addNameRange     '1.6.1',
+140 silly addNameRange     '1.6.2',
+140 silly addNameRange     '1.7.0',
+140 silly addNameRange     '1.8.0',
+140 silly addNameRange     '1.8.1',
+140 silly addNameRange     '1.8.2',
+140 silly addNameRange     '1.8.3',
+140 silly addNameRange     '1.8.4' ] ]
+141 silly addNamed nan@1.8.4
+142 verbose addNamed "1.8.4" is a plain semver version for nan
+143 silly cache afterAdd nan@1.8.4
+144 verbose afterAdd /Users/kirti/.npm/nan/1.8.4/package/package.json not in flight; writing
+145 verbose afterAdd /Users/kirti/.npm/nan/1.8.4/package/package.json written
+146 silly install resolved [ { name: 'nan',
+146 silly install resolved     version: '1.8.4',
+146 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+146 silly install resolved     main: 'include_dirs.js',
+146 silly install resolved     repository: { type: 'git', url: 'git://github.com/iojs/nan.git' },
+146 silly install resolved     scripts:
+146 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+146 silly install resolved        'rebuild-tests': 'pangyp rebuild --directory test' },
+146 silly install resolved     contributors:
+146 silly install resolved      [ [Object],
+146 silly install resolved        [Object],
+146 silly install resolved        [Object],
+146 silly install resolved        [Object],
+146 silly install resolved        [Object],
+146 silly install resolved        [Object],
+146 silly install resolved        [Object] ],
+146 silly install resolved     devDependencies:
+146 silly install resolved      { bindings: '~1.2.1',
+146 silly install resolved        'node-gyp': '~1.0.2',
+146 silly install resolved        pangyp: '~2.0.1',
+146 silly install resolved        tap: '~0.7.1',
+146 silly install resolved        xtend: '~4.0.0' },
+146 silly install resolved     license: 'MIT',
+146 silly install resolved     gitHead: 'ed3bbf4ced0cf7937b4e4164766797f71aa97f3d',
+146 silly install resolved     bugs: { url: 'https://github.com/iojs/nan/issues' },
+146 silly install resolved     homepage: 'https://github.com/iojs/nan#readme',
+146 silly install resolved     _id: 'nan@1.8.4',
+146 silly install resolved     _shasum: '3c76b5382eab33e44b758d2813ca9d92e9342f34',
+146 silly install resolved     _from: 'nan@>=1.8.4 <2.0.0',
+146 silly install resolved     _npmVersion: '2.8.3',
+146 silly install resolved     _nodeVersion: '0.12.2',
+146 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+146 silly install resolved     maintainers: [ [Object], [Object] ],
+146 silly install resolved     dist:
+146 silly install resolved      { shasum: '3c76b5382eab33e44b758d2813ca9d92e9342f34',
+146 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-1.8.4.tgz' },
+146 silly install resolved     directories: {},
+146 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-1.8.4.tgz',
+146 silly install resolved     readme: 'ERROR: No README data found!' } ]
+147 info install nan@1.8.4 into /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb
+148 info installOne nan@1.8.4
+149 verbose installOne of nan to /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb not in flight; installing
+150 verbose lock using /Users/kirti/.npm/_locks/nan-7fadbb548bb742f8.lock for /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/node_modules/nan
+151 silly install write writing nan 1.8.4 to /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/node_modules/nan
+152 verbose unbuild node_modules/oracledb/node_modules/nan
+153 silly gentlyRm /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/node_modules/nan is being purged from base /Users/kirti/nodejs/Projects/TMO
+154 verbose gentlyRm don't care about contents; nuking /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/node_modules/nan
+155 verbose tar unpack /Users/kirti/.npm/nan/1.8.4/package.tgz
+156 verbose tar unpacking to /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/node_modules/nan
+157 silly gentlyRm /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/node_modules/nan is being purged
+158 verbose gentlyRm don't care about contents; nuking /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/node_modules/nan
+159 silly gunzTarPerm modes [ '755', '644' ]
+160 silly gunzTarPerm extractEntry package.json
+161 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+162 silly gunzTarPerm extractEntry README.md
+163 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+164 silly gunzTarPerm extractEntry include_dirs.js
+165 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+166 silly gunzTarPerm extractEntry LICENSE.md
+167 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+168 silly gunzTarPerm extractEntry .dntrc
+169 silly gunzTarPerm modified mode [ '.dntrc', 436, 420 ]
+170 silly gunzTarPerm extractEntry appveyor.yml
+171 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 420 ]
+172 silly gunzTarPerm extractEntry nan.h
+173 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+174 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+175 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+176 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+177 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+178 silly gunzTarPerm extractEntry nan_new.h
+179 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+180 silly gunzTarPerm extractEntry nan_string_bytes.h
+181 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+182 silly gunzTarPerm extractEntry CHANGELOG.md
+183 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+184 verbose write writing to /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/node_modules/nan/package.json
+185 info preinstall nan@1.8.4
+186 verbose readDependencies loading dependencies from /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/node_modules/nan/package.json
+187 verbose readDependencies loading dependencies from /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/node_modules/nan/package.json
+188 silly install resolved []
+189 verbose about to build /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/node_modules/nan
+190 info build /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/node_modules/nan
+191 info linkStuff nan@1.8.4
+192 silly linkStuff nan@1.8.4 has /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/node_modules as its parent node_modules
+193 verbose linkBins nan@1.8.4
+194 verbose linkMans nan@1.8.4
+195 verbose rebuildBundles nan@1.8.4
+196 info install nan@1.8.4
+197 info postinstall nan@1.8.4
+198 verbose unlock done using /Users/kirti/.npm/_locks/nan-7fadbb548bb742f8.lock for /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb/node_modules/nan
+199 verbose about to build /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb
+200 info build /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb
+201 info linkStuff oracledb@0.6.0
+202 silly linkStuff oracledb@0.6.0 has /Users/kirti/nodejs/Projects/TMO/node_modules as its parent node_modules
+203 verbose linkBins oracledb@0.6.0
+204 verbose linkMans oracledb@0.6.0
+205 verbose rebuildBundles oracledb@0.6.0
+206 verbose rebuildBundles [ 'nan' ]
+207 info install oracledb@0.6.0
+208 verbose unsafe-perm in lifecycle true
+209 info oracledb@0.6.0 Failed to exec install script
+210 verbose unlock done using /Users/kirti/.npm/_locks/oracledb-3dfc816f6afc13c6.lock for /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb
+211 verbose stack Error: oracledb@0.6.0 install: `node-gyp rebuild`
+211 verbose stack Exit status 1
+211 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+211 verbose stack     at EventEmitter.emit (events.js:110:17)
+211 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+211 verbose stack     at ChildProcess.emit (events.js:110:17)
+211 verbose stack     at maybeClose (child_process.js:1015:16)
+211 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+212 verbose pkgid oracledb@0.6.0
+213 verbose cwd /Users/kirti/nodejs/Projects/TMO
+214 error Darwin 14.3.0
+215 error argv "node" "/usr/local/bin/npm" "install" "oracledb"
+216 error node v0.12.3
+217 error npm  v2.9.1
+218 error code ELIFECYCLE
+219 error oracledb@0.6.0 install: `node-gyp rebuild`
+219 error Exit status 1
+220 error Failed at the oracledb@0.6.0 install script 'node-gyp rebuild'.
+220 error This is most likely a problem with the oracledb package,
+220 error not with npm itself.
+220 error Tell the author that this fails on your system:
+220 error     node-gyp rebuild
+220 error You can get their info via:
+220 error     npm owner ls oracledb
+220 error There is likely additional logging output above.
+221 verbose exit [ 1, true ]
+222 verbose unbuild node_modules/oracledb
+223 info preuninstall oracledb@0.6.0
+224 info uninstall oracledb@0.6.0
+225 verbose unbuild rmStuff oracledb@0.6.0 from /Users/kirti/nodejs/Projects/TMO/node_modules
+226 info postuninstall oracledb@0.6.0
+227 silly gentlyRm /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb is being purged from base /Users/kirti/nodejs/Projects/TMO
+228 verbose gentlyRm don't care about contents; nuking /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb
+229 silly vacuum-fs purging /Users/kirti/nodejs/Projects/TMO/node_modules/oracledb
+230 silly vacuum-fs quitting because other entries in /Users/kirti/nodejs/Projects/TMO/node_modules
