@@ -1,0 +1,240 @@
+liveatp_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_liveatp_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+liveatp_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_liveatp_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+liveatp_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_liveatp_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+liveatp_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_liveatp_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+nodeappdb3_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_nodeappdb3_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+nodeappdb3_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_nodeappdb3_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+nodeappdb3_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_nodeappdb3_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+nodeappdb3_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_nodeappdb3_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+salesdbatp_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_salesdbatp_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+salesdbatp_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_salesdbatp_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+salesdbatp_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_salesdbatp_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+salesdbatp_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_salesdbatp_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+atpdatabase_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_atpdatabase_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+atpdatabase_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_atpdatabase_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+atpdatabase_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_atpdatabase_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+atpdatabase_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_atpdatabase_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+austinlab100_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_austinlab100_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+austinlab100_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_austinlab100_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+austinlab100_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_austinlab100_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+austinlab100_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_austinlab100_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+adbforatp_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_adbforatp_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+adbforatp_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_adbforatp_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+adbforatp_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_adbforatp_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+adbforatp_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_adbforatp_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+adatabasedb1_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_adatabasedb1_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+adatabasedb1_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_adatabasedb1_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+adatabasedb1_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_adatabasedb1_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+adatabasedb1_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_adatabasedb1_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+adw2800cs_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_adw2800cs_high.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+adw2800cs_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_adw2800cs_low.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+adw2800cs_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_adw2800cs_medium.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+dipcatp_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_dipcatp_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+dipcatp_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_dipcatp_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+dipcatp_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_dipcatp_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+dipcatp_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_dipcatp_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+sqldev_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_sqldev_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+sqldev_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_sqldev_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+sqldev_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_sqldev_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+sqldev_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_sqldev_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+autonomousdw_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_autonomousdw_high.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+autonomousdw_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_autonomousdw_low.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+autonomousdw_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_autonomousdw_medium.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+devcstest_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_devcstest_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+devcstest_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_devcstest_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+devcstest_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_devcstest_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+devcstest_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_devcstest_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+autonomoustp_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_autonomoustp_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+autonomoustp_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_autonomoustp_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+autonomoustp_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_autonomoustp_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+autonomoustp_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_autonomoustp_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+nodeappdb2_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_nodeappdb2_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+nodeappdb2_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_nodeappdb2_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+nodeappdb2_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_nodeappdb2_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+nodeappdb2_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_nodeappdb2_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+db_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_db_high.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+db_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_db_low.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+db_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_db_medium.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+ecaxweek_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_ecaxweek_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+ecaxweek_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_ecaxweek_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+ecaxweek_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_ecaxweek_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+ecaxweek_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_ecaxweek_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+dipcatp2_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_dipcatp2_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+dipcatp2_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_dipcatp2_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+dipcatp2_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_dipcatp2_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+dipcatp2_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_dipcatp2_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+ziplabdataaz_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_ziplabdataaz_high.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+ziplabdataaz_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_ziplabdataaz_low.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+ziplabdataaz_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_ziplabdataaz_medium.adwc.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+sapientiae_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_sapientiae_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+sapientiae_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_sapientiae_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+sapientiae_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_sapientiae_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+sapientiae_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_sapientiae_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+dbone_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_dbone_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+dbone_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_dbone_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+dbone_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_dbone_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+dbone_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_dbone_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+nodeappdb_high = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_nodeappdb_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+nodeappdb_low = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_nodeappdb_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+nodeappdb_medium = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_nodeappdb_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+nodeappdb_parallel = (description= (address=(protocol=tcps)(port=1522)(host=adwc.uscom-west-1.oraclecloud.com))(connect_data=(service_name=wkrfs4xeqva1jcu_nodeappdb_parallel.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+

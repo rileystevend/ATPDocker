@@ -1,5 +1,5 @@
 module.exports= {
-dbuser:"nodeuser",
+dbuser:"admin",
 dbpassword:"Autonomousdb123#",
-connectString :"nodeappdb2_high"
+connectString :"austinlab100_medium"
 }
