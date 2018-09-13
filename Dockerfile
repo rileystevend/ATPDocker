@@ -45,4 +45,4 @@ ENV PATH /opt/oracle/lib/instantclient_12_1:/opt/oracle/lib/wallet_NODEAPPDB2:/o
 RUN cd /opt/oracle/lib/ATPDocker/aone && \
 	npm install oracledb
 EXPOSE 3050
-CMD [ "node", "/opt/oracle/lib/ATPDocker/aone/server.js" ]
+# CMD [ "node", "/opt/oracle/lib/ATPDocker/aone/server.js" ]
