@@ -4,10 +4,9 @@ FROM frolvlad/alpine-glibc:alpine-3.8
 RUN apk update && apk add libaio libnsl && \
     ln -s /usr/lib/libnsl.so.2 /usr/lib/libnsl.so.1
 
-#install node, git, python and cleanup cache
+#install java, git and cleanup cache
 RUN apk add --update \
-    nodejs \
-    nodejs-npm \
+    openjdk-8-jdk \
     git \
     python \
    && rm -rf /var/cache/apk/*
